@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-color: #1a1616;
+}
+#form > input {
+  border: 1px solid #CCC;
+ height: 30px;
+  border-radius: 4px;
+  padding: 0px 10px;
+  margin: 5px;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Lights */
+.light{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #CCC;
+  border-radius: 50%;
+  background-color: transparent;
+  display: block;
+  position: absolute;
+}
+.crash{
+  background-color: blue;
+}

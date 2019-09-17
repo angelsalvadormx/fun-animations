@@ -1,0 +1,30 @@
+@keyframes moveMainColumns{
+  0%,100%{
+    grid-gap: 0;
+    top: 0;
+  } 
+  50%{
+    grid-gap: 50px;
+    top: 25px;
+  }
+}
+
+@keyframes moveColumns{
+  0%,100%{
+    grid-gap: 0;
+    left: 0;
+  } 
+  50%{
+    grid-gap: 50px;
+    left: -20px
+  }
+}
+
+@keyframes moveCubes{
+  0%,100%{
+    grid-gap: 0;
+  } 
+  50%{
+    grid-gap: 10pc;
+  }
+}
