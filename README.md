@@ -1,4 +1,4 @@
 # Fun Animations with css 🎉
 
 
-[Vista previa](https://angelsalvadormx.github.io/)
+[Preview](https://angelsalvadormx.github.io/)
