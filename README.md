@@ -1,4 +1,4 @@
-# Fun Animations with css 🎉
+# Fun Animations 🎉
 
 ### [3D Cube](https://angelsalvadormx.github.io/fun-animations/cube/)
 ## loader with css html js
