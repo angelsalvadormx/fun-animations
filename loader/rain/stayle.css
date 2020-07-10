@@ -1,0 +1,120 @@
+#loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #16141b;
+}
+#loader h2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: #FFF;
+    /*
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    */
+}
+#loader .circle{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    transform: rotateX(54deg) scale(0);
+    width: 100px;
+    height: 100px;
+}
+
+
+/* cicle and rain */
+#loader .circle:nth-child(1){
+    right: 170px;
+    top: 371px;
+    animation: grow 2s 2s linear infinite;
+}
+#loader .rain:nth-child(2){
+    transform: rotate(17deg);
+    top: 389px;
+    right: 216px;
+    animation: A_rain 2s linear infinite;
+}
+
+/* -------------------------------- */
+#loader .circle:nth-child(3){
+    top: 420px;
+    right: 220px;
+    animation: grow 2s 2.5s linear infinite;
+}
+
+#loader .rain:nth-child(4){
+    transform: rotate(20deg);
+    top: 439px;
+    right: 266px;
+    animation: A_rain 2s .5s linear infinite;
+}
+/* -------------------------------- */
+
+#loader .circle:nth-child(5){
+    top: 420px;
+    right: 320px;
+    animation: grow 2s 3s linear infinite;
+}
+
+#loader .rain:nth-child(6){
+    transform: rotate(20deg);
+    top: 439px;
+    right: 365px;
+    animation: A_rain 2s 1s linear infinite;
+}
+/* -------------------------------- */
+
+#loader .circle:nth-child(7){
+    top: 357px;
+    right: 273px;
+    animation: grow 2s 3.5s linear infinite;
+}
+
+#loader .rain:nth-child(8){
+    transform: rotate(20deg);
+    top: 375px;
+    right: 318px;
+    animation: A_rain 2s 1.5s linear infinite;
+}
+/* -------------------------------- */
+
+
+
+@keyframes grow{
+    0%{
+        opacity: 1;
+        transform: rotateX(56deg) scale(0);   
+    }
+    100%{
+        opacity: 0;
+        transform: rotateX(56deg) scale(1.5);   
+    }
+}
+
+#loader .rain{
+    position: absolute;
+    width: 0px;
+    height: 34px;
+    background-color: #FFF;
+    border-radius: 44%;
+}
+
+
+@keyframes A_rain{
+    0%{
+       top: -400px;
+       right: -219px;
+    }
+    100%{
+        width: 2px;
+    }
+    
+}

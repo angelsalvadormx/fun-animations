@@ -1,0 +1,93 @@
+#loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#loader h2{
+    position: absolute;
+    bottom: 150px;
+    font-family: sans-serif;
+    color: #7f7fa7;
+}
+#loader #circle_center,
+#loader #circle{
+    border: 1px solid #FFF;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+#loader[animation="1"]{
+    background-color: #09094e;
+}
+
+#loader[animation="1"] #circle{
+    background-color: #FFF;
+}
+#loader[animation="1"] #circle #circle_center{
+    background-color: #09094e;
+}
+
+#loader[animation="2"]{
+    background-color: #FFF;
+}
+
+#loader[animation="2"] #circle{
+    background-color: #09094e;
+}
+#loader[animation="2"] #circle #circle_center{
+    background-color: #FFF;
+    animation: center_ 3s ease-in-out;
+}
+
+
+#loader #circle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: transform .5s linear;
+}
+#loader #circle_center{
+    animation: center 2s ease-out;
+    transform: scale(0);
+}
+@keyframes center{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+@keyframes center_{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
