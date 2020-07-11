@@ -1,6 +1,7 @@
 # Fun Animations 🎉
 
 ### [3D Cube](https://angelsalvadormx.github.io/fun-animations/cube/)
+![alt text](https://res.cloudinary.com/de1gvecy0/image/upload/v1594425492/Github/3DCube.png)
 ## loader with css html js
 ### [Hexagono](https://angelsalvadormx.github.io/fun-animations/loader/hexagon/)
 ![alt text](https://res.cloudinary.com/de1gvecy0/image/upload/v1549307496/Github/Captura_de_pantalla_de_2019-02-04_13-00-39.png)
